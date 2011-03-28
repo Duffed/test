@@ -37,6 +37,8 @@ local function Local(o)
 	if o == "TukuiConfigUIgeneraloverridelowtohigh" then o = TukuiL.option_general_override end
 	if o == "TukuiConfigUIgeneralmultisampleprotect" then o = TukuiL.option_general_multisample end
 	if o == "TukuiConfigUIgeneraluiscale" then o = TukuiL.option_general_customuiscale end
+	if o == "TukuiConfigUIgeneralbackdropcolor" then o = TukuiL.option_general_backdropcolor end
+	if o == "TukuiConfigUIgeneralbordercolor" then o = TukuiL.option_general_bordercolor end
 	
 	-- nameplate
 	if o == "TukuiConfigUInameplate" then o = TukuiL.option_nameplates end
@@ -133,6 +135,7 @@ local function Local(o)
 	if o == "TukuiConfigUIunitframesweakenedsoulbar" then o = TukuiL.option_unitframes_weakenedsoulbar end
 	if o == "TukuiConfigUIunitframesonlyselfdebuffs" then o = TukuiL.option_unitframes_onlyselfdebuffs end
 	if o == "TukuiConfigUIunitframesshowfocustarget" then o = TukuiL.option_unitframes_focus end
+	if o == "TukuiConfigUIunitframesbordercolor" then o = TukuiL.option_unitframes_bordercolor end
 
 	-- loot
 	if o == "TukuiConfigUIloot" then o = TukuiL.option_loot end

@@ -9,6 +9,8 @@ TukuiL.option_general_uiscale = "Auto UI Scale"
 TukuiL.option_general_override = "Use High resolution  layout on a Lower resolution"
 TukuiL.option_general_multisample = "Multisampling protection (clean 1px border)"
 TukuiL.option_general_customuiscale = "UI Scale (if auto-scale is disabled)"
+TukuiL.option_general_backdropcolor = "Set default backdrop color of panels"
+TukuiL.option_general_bordercolor = "Set default border color of panels"
  
 -- nameplate
 TukuiL.option_nameplates = "Nameplates"
@@ -102,6 +104,7 @@ TukuiL.option_unitframes_classbar = "Enable class bar"
 TukuiL.option_unitframes_weakenedsoulbar = "Enable Weakened Soul bar notification (Priest)"
 TukuiL.option_unitframes_onlyselfdebuffs = "Display only our debuffs on target"
 TukuiL.option_unitframes_focus = "Enable Focus target"
+TukuiL.option_unitframes_bordercolor = "Set default border color of panels"
  
 -- loot
 TukuiL.option_loot = "Loot"
